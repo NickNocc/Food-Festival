@@ -38,11 +38,11 @@ module.exports = {
     ]
   },
   plugins: [
-  new webpack.ProvidePlugin({
-    $: "jquery",
-    jQuery: "jquery"
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
   }),
-  new BundleAnalyzerPlugin({
+    new BundleAnalyzerPlugin({
       analyzerMode: "static", 
   })
   ],
